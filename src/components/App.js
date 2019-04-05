@@ -20,7 +20,9 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">News Feed</h1>
         </header>
+        <h2>News BBC</h2>
         <News news={this.state.newsBBC}/>
+        <h2>News US</h2>
         <News news={this.state.newsUS}/>
       </div>
     );
